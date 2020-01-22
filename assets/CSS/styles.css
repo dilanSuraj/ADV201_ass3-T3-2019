@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.home_page_container{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 25%;
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #4B92C6;
+    border-radius: 5px;
+}
+.page_heading{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Arial MT';
+    margin-left: 75%;
+    margin-top: 6%;
+}
+
+.page_description{
+    color: white;
+    font-size: x-large;
+    font-family: 'Script MT';
+    font-weight: bold;
+    margin-left: 35%;
+}
+
+.heading_container{
+    position: absolute;
+    top: 0.3vh;
+    right: 2%;
+    width: 42vw;
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #4B92C6;
+    border-radius: 5px;
+}
+.other_page_container{
+    position: absolute;
+    top: 2vh;
+    left: 2%;
+    width: 13vw;
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #4B92C6;
+    border-radius: 5px;
+}
+.home_image_container{
+    top: 15%;
+    width: 100%;
+    height: 100%;
+}
+
+.enchanted_name{
+    width: 75%;
+    height: 30%;
+    margin-left: 25%;
+}
+
+.enchanted_name_container{
+    width: 100%;
+    height: 90%;
+}
+/* Home Page Navigation Starts */
+.index_1_img{
+    width: 25%;
+    height: 20%;
+    margin-left: 134%;
+    margin-top: 75vh;
+}
+
+.index_1_img_container{
+    width: 60%;
+    height: 90%;
+}
+
+.index_2_img{
+    width: 23%;
+    height: 18%;
+    margin-top: 2vh;
+    margin-left: 139%;
+}
+
+.index_2_img_container{
+    width: 60%;
+    height: 90%;
+}
+
+.index_3_img{
+    width: 23%;
+    height: 18%;
+    margin-top: 3vh;
+    margin-left: 143%;
+}
+
+.index_3_img_container{
+    width: 60%;
+    height: 90%;
+}
+/* Home Page Navigation End */
+.index_img{
+    width: 109%;
+    height: 7%;
+
+    margin-left: 603%;
+}
+
+.home_right_corner_img{
+    width: 8vh;
+    height: 9vh;
+    margin-top: -3.5vh;
+}
+
+.home_right_corner_img_container{
+    width: 14%;
+    height: 7%;
+    margin-top: -0.5%;
+    text-align: right;
+    margin-left: 84%;
+}
+
+.index_img_container{
+    width: 14%;
+    height: 7%;
+    margin-top: -0.5%;
+    text-align: right;
+}
+
+.home_img{
+    width: 8vh;
+    height: 9vh;
+    margin-top: 0.5vh;
+}
+
+.home_img_container{
+    width: 14%;
+    position: absolute;
+    left: 1%;
+}
+
+.previous_img{
+    width: 100%;
+    height: 7%;
+    margin-top: 4vh;
+}
+
+.previous_img_container{
+    width: 14%;
+    position: absolute;
+    left: 1%;
+}
+
+.f_share_img{
+    width: 13vw;
+    height: 7vh;
+    margin-top: 0.5vh;
+}
+
+.f_share_img_container{
+    width: 7vw;
+    position: absolute;
+    left: 42%;
+}
+
+.list_items{
+    color: #4B92C6;
+}
+
+.bg {
+    /* The image used */
+    background-color: #4B92C6;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image_container{
+    width: 20vw;
+    height: 50%;
+    margin-top: 28vh;
+    margin-left: 63%;
+}
+
+.image{
+    width: 35vw;
+    height: 61vh;
+}
+
+.paragraph_container{
+    position: absolute;
+    top: 30vh;
+    left: 2%;
+    width: 60vw;
+    height: 60%;
+    color: black;
+    font-size: medium;
+    font-family: Arial;
+}
+
+/* animation for the sun glowing effect */
+
+@-webkit-keyframes sun-glow {
+    0% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+    50% {
+        fill: #e67e22;
+        stroke: #e67e22;
+    }
+    100% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+}
+
+@-moz-keyframes sun-glow {
+    0% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+    50% {
+        fill: #e67e22;
+        stroke: #e67e22;
+    }
+    100% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+}
+
+@-o-keyframes sun-glow {
+    0% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+    50% {
+        fill: #e67e22;
+        stroke: #e67e22;
+    }
+    100% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+}
+
+@-ms-keyframes sun-glow {
+    0% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+    50% {
+        fill: #e67e22;
+        stroke: #e67e22;
+    }
+    100% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+}
+
+@keyframes sun-glow {
+    0% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+    50% {
+        fill: #e67e22;
+        stroke: #e67e22;
+    }
+    100% {
+        fill: #f1c40f;
+        stroke: #f1c40f;
+    }
+}
+
+
+/* start spin animation */
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spin {
+    100% {
+        -o-transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes spin {
+    100% {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

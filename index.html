@@ -13,33 +13,36 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body class="bg">
-    <div class="home_page_container">      
-         <img src="./assets/images/home_img.png" class="home_image_container">
-         <div class="enchanted_name_container">      
-           <img src="./assets/images/enchanted_name.png" class="enchanted_name">
+    <script src="./assets/JS/animation.js"></script>
+    <audio id="audio" src="./assets/MP3/bgsound.mp3"></audio>
+    <div class="home_page_container">
+        <img src="./assets/images/home_img.png" class="home_image_container">
+        <div class="enchanted_name_container">
+            <img src="./assets/images/enchanted_name.png" class="enchanted_name">
         </div>
     </div>
     <ul class="list_items">
         <li>
             <div class="index_1_img_container">
-                <a href="page2.html"><img src="./assets/images/page2.png" class="index_1_img"></a>
+                <a href="page2.html" onclick="play(event)"><img src="./assets/images/page2.png" class="index_1_img" ></a>
             </div>
         </li>
         <li>
             <div class="index_2_img_container">
-                <a href="page3.html"><img src="./assets/images/page3.png" class="index_2_img"></a>
+                <a href="page3.html" onclick="play(event)"><img src="./assets/images/page3.png" class="index_2_img"></a>
             </div>
         </li>
         <li>
             <div class="index_3_img_container">
-                <a href="page4.html"><img src="./assets/images/page4.png" class="index_3_img"></a>
+                <a href="page4.html" onclick="play(event)"><img src="./assets/images/page4.png" class="index_3_img"></a>
             </div>
         </li>
     </ul>
-    
+
 </body>
 
 </html>

@@ -21,7 +21,10 @@
 }
 
 .page_description{
-    color: white;
+    color: #377dae;
+    background-color: #99ffeb;
+    padding: 0.2em;
+    border-radius: 1em;
     font-size: x-large;
     font-family: 'Script MT';
     font-weight: bold;
